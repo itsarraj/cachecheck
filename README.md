@@ -5,6 +5,12 @@ Audits a live URL's HTTP caching headers (`Cache-Control`, `ETag`,
 usually go unnoticed until someone's manually inspecting response
 headers in browser devtools after a caching bug report.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
